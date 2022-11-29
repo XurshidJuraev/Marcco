@@ -1,0 +1,242 @@
+.father_quiz .quiz_block {
+    display: none;
+}
+
+.father_quiz .quiz_block.active_quiz {
+    display: block;
+}
+
+.number_quiz {
+    width: 960px;
+    height: 97px;
+    background-color: #ca0016;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.quiz_number {
+    float: right;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+.white_quiz {
+    width: 960px;
+    height: 431px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.white_quiz2 {
+    width: 960px;
+    height: 401px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.white_quiz3 {
+    width: 960px;
+    height: 319px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.white_quiz4 {
+    width: 960px;
+    height: 345px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.white_quiz5 {
+    width: 960px;
+    height: 538px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.quiz_text {
+    padding-bottom: 5px;
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 46px;
+    margin-left: 15px;
+}
+
+.quiz_text2 {
+    padding-bottom: 5px;
+    font-size: 29px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 46px;
+    margin-left: 15px;
+}
+
+.quiz_input_text {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+/* .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  } */
+
+  
+.input_contanier input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+  
+.checkmark {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin: 3px;
+    border: 2px solid #ca0016;
+    margin-top: -36px;
+    margin-left: -22px;
+}
+  
+.input_contanier input:checked ~ .checkmark {
+    background-color: #ca0016;
+    border: 1px solid #ffffff;
+}
+  
+.input_contanier input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.input_contanier .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.quiz_nazad {
+    width: 125px;
+    height: 45px;
+    color: #ffffff;
+    border: none;
+    background-color: gray;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+.quiz_cencel {
+    transform: rotate(180deg) translateY(45%);
+    margin-top: 20px;
+    margin-left: -72px;
+}
+
+.quiz_cencel_text {
+    margin-top: -52px;
+    margin-left: 20px;
+}
+
+.quiz_next {
+    color: rgb(255, 255, 255);
+    background-color: rgb(202, 0, 22);
+    border-radius: 10px;
+    display: block;
+    width: 125px;
+    height: 45px;
+    border: none;
+}
+
+.nazad_div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.nazad_div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.input_text_ras {
+    width: 870px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid #b3b3b3;
+    margin-left: -36px;
+    outline: none;
+}
+
+.quiz_ssilka {
+    font-size: 15px;
+    opacity: 0.6;
+    margin-left: 15px;
+}
+
+.quiz_big_text {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+    .white_quiz, .white_quiz2, .white_quiz3, .white_quiz4, .white_quiz5 {
+        width: 600px;
+    }
+
+    .number_quiz {
+        width: 600px;
+    }
+
+    .input_text_ras {
+        width: 510px;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .white_quiz, .white_quiz2, .white_quiz3, .white_quiz4, .white_quiz5 {
+        width: 375px;
+        height: 460px;
+        margin-left: -25px;
+    }
+
+    .number_quiz {
+        width: 375px;
+        margin-left: -25px;
+    }
+
+    .input_text_ras {
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

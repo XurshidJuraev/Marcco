@@ -1,0 +1,136 @@
+.red_line {
+    background-image: url('../../images/776f4aec-2bac-4fb3-b.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 145px;
+    height: 143px;
+    z-index: 16;
+}
+
+.ruki_du {
+    background-image: url('../../images/bc680165-d086-4605-8.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 212px;
+    height: 212px;
+    margin-top: -133px;
+    margin-left: -22px;
+    z-index: 17;
+}
+
+.ruki_du2 {
+    background-image: url('../../images/460e589d-b0d3-441b-a.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 288px;
+    height: 288px;
+    margin-top: -190px;
+    margin-left: -75px;
+    z-index: 17;
+}
+
+.ruki_du3 {
+    background-image: url('../../images/08fbc2d4-1666-4461-8.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 271px;
+    height: 271px;
+    margin-top: -148px;
+    margin-left: -80px;
+    z-index: 17;
+}
+
+.ruki_du4 {
+    background-image: url('../../images/75dc50e3-fe32-4640-9.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 281px;
+    height: 281px;
+    margin-top: -193px;
+    margin-left: -59px;
+    z-index: 17;
+}
+
+.podxod_mittle {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.podxod_big {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.podxod2_card {
+    margin-left: 585px;
+}
+
+.podxod4_card {
+    margin-left: 211px;
+    margin-top: -51px;
+}
+
+.line180 {
+    margin-left: 245px;
+    margin-top: -30px;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .podxod_mobileNone {
+        display: none;
+    }
+    
+    .podxod2_card {
+        margin-left: 0;
+    }
+    
+    .podxod4_card {
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .podxod_big {
+        font-size: 20px;
+        margin-left: -50px;
+    }
+
+    .podxod_mittle {
+        font-size: 16px;
+        margin-left: -50px;
+    }
+
+    .podxodLeft_margin {
+        margin-left: -71px;
+    }
+
+    .podxodLeft_margin2 {
+        margin-left: -71px;
+    }
+
+    .podxodList {
+        margin-top: 0 !important;
+    }
+
+    .podxodLogo {
+        width: 375px;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

@@ -1,0 +1,120 @@
+.spektrBody {
+    background-image: url('../../images/spektrBody2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.spektr_text {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 103px;
+}
+
+.spektr_1 {
+    margin-left: 55px;
+    margin-top: 75px;
+}
+
+.spektr_zIndex {
+    z-index: 20;
+}
+
+.spektr_zIndex2 {
+    z-index: 19;
+}
+
+.spektr_zIndex3 {
+    z-index: 20;
+}
+
+.spektr_smm {
+    margin-right: -9rem !important;
+    margin-top: 75px;
+    padding-left: 135px;
+}
+
+.spektr_smm2 {
+    margin-right: -9rem !important;
+    margin-top: 75px;
+    padding-left: 48px;
+}
+
+.spektr_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.spektr_oneB {
+    margin-left: -90px;
+    margin-top: 75px;
+}
+
+.spektr_threeB {
+    margin-left: -90px;
+    margin-top: -18px;
+}
+
+.spektr_twoB {
+    margin-left: -20px;
+    margin-top: 75px;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+    .spektr_oneB , .spektr_twoB, .spektr_threeB {
+        margin: 0;
+        padding-left: 110px;
+    }
+
+    .spektrMobileNOne {
+        display: none;
+    }
+
+    .spektr_smm2, .spektr_smm {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .spektr_text {
+        text-align: center;
+        margin-left: 100px;
+        margin-bottom: 22px;
+        width: 455px;
+    }
+
+    .spektr_flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .spektr_zIndex2 {
+        width: 375px;
+        margin-left: -22px;
+        margin-bottom: 15px;
+    }
+
+    .spektr_zIndex {
+        margin-left: -70px;
+    }
+
+    .spektr_text {
+        text-align: center;
+        margin-left: -27px;
+        margin-bottom: 22px;
+        width: 375px;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

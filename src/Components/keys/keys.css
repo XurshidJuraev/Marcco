@@ -1,0 +1,145 @@
+.keys_onlayn {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.keys_mesyach {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: 1.25;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.keysBorder {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: transparent !important;
+    border: 2px solid #ca0016 !important;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all 0.3s ease !important;
+}
+
+.keysBorder:hover {
+    transition: all 0.1s ease !important;
+    background-color: #ca0016 !important;
+}
+
+.keysNone_Content {
+    display: none;
+}
+
+.corichLogo {
+    width: 402px;
+    height: 59px;
+}
+
+.KarcherLogo {
+    width: 250px;
+    height: 59px;
+}
+
+.keysMobile_PhoneImage2 {
+    width: 685px;
+    height: 817px;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+    .keysMobile_None {
+        display: none;
+    }
+
+    .keysNone_Content {
+        display: block;
+        z-index: 20;
+        height: 170px !important;
+        margin-left: 182px;
+    }
+
+    .keysZ_Index {
+        z-index: 21;
+    }
+
+    .keysMobile_PhoneImage {
+        width: 490px;
+        height: 525px;
+        margin-top: 80px;
+        margin-right: -43px;
+        margin-left: 21px;
+    }
+    
+    .keysMobile_PhoneImage2 {
+        width: 490px;
+        height: 525px;
+        margin-top: 80px;
+        margin-right: -43px;
+        margin-left: 110px;
+    }
+
+    .margin_keysLeft {
+        margin-left: -604px;
+    }
+
+    .margin_keysLeft2 {
+        margin-left: -689px;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .margin_keysLeft2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .keysMobile_ContentText {
+        margin-left: 281px;
+        margin-top: -40px !important;
+        margin-bottom: 30px;
+    }
+
+    .keysMobile_ContentText2 {
+        margin-left: 385px;
+        margin-top: -40px !important;
+        margin-bottom: 30px;
+    }
+
+    .keysMobile_ContentText3 {
+        margin-left: 289px;
+        margin-top: -40px !important;
+        margin-bottom: 30px;
+    }
+
+    .keysMobile_PhoneImage2 {
+        margin-left: 267px;
+    }
+
+    .keysMobile_PhoneImage {
+        margin-left: 195px;
+    }
+
+    .keysNone_Content {
+        margin-left: 0 !important; 
+    }
+
+    .fdcoKeys {
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

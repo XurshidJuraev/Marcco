@@ -1,0 +1,84 @@
+.markBody {
+    background-image: url('../../images/markCoBody.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.markBox {
+    background-image: url('../../images/MarkBox.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 385px;
+    height: 320px;
+    padding-top: 71px;
+    padding-left: 12px;
+}
+
+.markBlur {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    width: 272px;
+    height: 183px;
+    margin-left: 82px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.markTnAtom {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.markTntAtom {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    /* width: 195px; */
+    margin-left: 9px;
+}
+
+.mark_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+    .markBox {
+        background-image: url('../../images/MarkBox.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 324px;
+        height: 320px;
+        padding-top: 60px;
+        padding-left: 0;
+    }
+
+    .markBlur {
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        width: 226px;
+        height: 147px;
+        margin-left: 82px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

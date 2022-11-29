@@ -1,0 +1,42 @@
+.footerBackground {
+    background-color: #CA0016;
+    height: 328px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+    .footerFlex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -113px;
+    }
+
+    .footer_tepa {
+        margin-top: 20px !important;
+    }
+
+    .footerBackground {
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .footerLogo {
+        width: 297px !important;
+        height: 52px !important;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

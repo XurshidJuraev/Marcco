@@ -1,0 +1,157 @@
+.brat {
+    width: 480px;
+    /* height: 977px !important; */
+    margin-top: 204px;
+}
+
+.sdelaye {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.hero2_btn {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-width: 4px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    background-image: url('../../images/b0ed5aff-5013-4160-9.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-style: solid;
+    width: 411px;
+    height: 91px;
+    background-color: #DE1623;
+    border-radius: 50px;
+    z-index: 15;
+    margin-left: -50px;
+    margin-top: 7px;
+}
+
+.margin_hero2 {
+    margin-top: 220px;
+    margin-left: 50px;
+}
+
+.whatsap {
+    background-color: #DE1623;
+    border-radius: 50%;
+    border: 5px solid #1A1A1A;
+    width: 107px;
+    height: 107px;
+    margin-left: -9px;
+    z-index: 16;
+}
+
+.smm {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.hero_none2 {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+    .header_mobileNone2 {
+        display: none !important;
+    }
+
+    .hero_none2 {
+        display: block !important;
+    }
+
+    .margin_best_top {
+        margin-top: -200px;
+    }
+
+    .brat {
+        height: 821px;
+        margin-top: -25px;
+        margin-bottom: -100px;
+        width: 851px;
+        margin-left: -194px;
+    }
+
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    
+    .sdelaye {
+        font-size: 25px;
+        margin-left: -45px;
+        margin-top: -492px;
+        width: 321px;
+    }
+
+    .free {
+        width: 314px;
+        height: 61px;
+        margin-left: -56px !important;
+    }
+
+    .brat {
+        max-width: 426px;
+        max-height: 526px;
+        margin-left: -139px;
+    }
+
+    .smm {
+        font-size: 16px;
+        text-align: center;
+        width: 314px;
+        margin-left: -45px;
+    }
+
+    .hero_napiw {
+        text-align: center;
+        width: 267px;
+        margin-left: -40px;
+    }
+
+    .hero2_btn {
+        width: 323px;
+        height: 62px;
+        font-size: 22px;
+    }
+
+    .whatsap {
+        width: 83px;
+        height: 81px;
+        margin-left: -81px;
+        padding-left: -25px;
+    }
+
+    .whatsapIcon {
+        margin-left: 13px !important;
+        margin-top: 8px !important;
+    }
+
+    .heroStrelko {
+        margin-right: -27px;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

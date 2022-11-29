@@ -1,0 +1,78 @@
+.white_color {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+    border-radius: 30px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.headerLogo {
+    width: 174px;
+    height: 56px;
+}
+
+.white_color:hover, .tel_header:hover {
+    color: #ca0016;
+}
+
+.tel_header {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: 0;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-decoration: none;
+    border-bottom: 3px solid #FD3434;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    padding-top: 20px;
+}
+
+.margin_header {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .white_color {
+        font-size: 10px;
+    }
+
+    .headerLogo {
+        width: 120px;
+        height: 39px;
+        margin-top: 9px;
+    }
+    
+    .tel_header {
+        font-size: 16px;
+        margin-top: 9px !important;
+    }
+
+    .margin_header {
+        margin-top: 9px;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .header_mobile {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+    .header_mobile {
+        display: none !important;
+    }
+}

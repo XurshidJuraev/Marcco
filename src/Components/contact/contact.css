@@ -1,0 +1,75 @@
+.contactBody {
+    background-image: url('../../images/contactBody3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactBorder {
+    background-image: url('../../images/contactBorder.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 653px;
+    height: 450px;
+    padding-top: 22px;
+    padding-left: 26px;
+}
+
+.contactContact {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 25px;
+    margin-top: 11px;
+}
+
+.contactContact:hover {
+    color: #ffffff;
+}
+
+.contectFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+    .contectFlex {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .contactContact {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+    .contactBorder {
+        width: 319px;
+        height: 413px;
+        margin-left: -38px;
+        background-image: none;
+    }
+
+    .mapContact {
+        width: 319px;
+        height: 413px;
+    }
+
+    .contactSvg {
+        width: 323px;
+        height: 79px;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

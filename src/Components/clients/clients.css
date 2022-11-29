@@ -1,0 +1,23 @@
+.margin_auto {
+    margin-left: 115px;
+}
+
+.clientImage {
+    width: 260px;
+    height: 183px;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+    .clientImage {
+        width: 125px;
+        height: 86px;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
