@@ -14,8 +14,10 @@
 }
 
 .headerLogo {
-    width: 174px;
-    height: 56px;
+  width: 174px;
+  height: 156px;
+  margin-top: -44px;
+  margin-bottom: -33px;
 }
 
 .white_color:hover, .tel_header:hover {
@@ -59,20 +61,139 @@
     }
 
     .margin_header {
-        margin-top: 9px;
+        display: none;
     }
 }
 @media only screen and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
 
-    .header_mobile {
+    /* .header_mobile {
         display: none !important;
+    } */
+
+   
+
+    .margin_header {
+        display: none;
     }
 }
 @media only screen and (max-width: 425px){
 	/*Small smartphones [325px -> 425px]*/
 
-    .header_mobile {
+    /* .header_mobile {
         display: none !important;
-    }
+    } */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: rgb(0, 33, 65);
+}
+.nav__brand {
+  text-transform: uppercase;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+
+.headerMobileLogo {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    right: 81px;
+    top: 22px;
+    z-index: 98;
+    background-color: #ca0016;
+    border-radius: 50%;
+    height: 63px;
+    width: 63px;
+    padding-left: 6px;
+    padding-top: 12px;
+  }
+
+  .nav__brand {
+    display: none;
+}
+  .nav__menu {
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    height: 100%;
+    width: 50vw;
+    z-index: 95;
+    /* background-color: #111111; */
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+
+  .headerMobileLogo {
+    display: block;
+    width: 126px;
+    height: 149px;
+    margin-top: 69px;
+    margin-left: -19px;
+    margin-bottom: -46px;
+  }
+  
+  .white_color {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .nav__item {
+    text-align: left;
+  }
+
+  .t-sociallinks__svg {
+    margin-right: 8px;
+  }
+
+  .svgIconsSMM {
+    margin-top: 371px;
+    margin-left: -42px;
+    display: block !important;
+  }
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+  background-color: #111111;
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+
+.svgIconsSMM {
+  display: none;
 }

@@ -63,6 +63,7 @@
     .mapContact {
         width: 319px;
         height: 413px;
+        margin-left: 30px;
     }
 
     .contactSvg {

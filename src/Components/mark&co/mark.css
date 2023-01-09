@@ -8,17 +8,17 @@
     background-image: url('../../images/MarkBox.png');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 385px;
+    width: 370px;
     height: 320px;
     padding-top: 71px;
-    padding-left: 12px;
+    padding-left: 8px;
 }
 
 .markBlur {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    width: 272px;
-    height: 183px;
+    width: 261px;
+    height: 173px;
     margin-left: 82px;
     border-radius: 10px;
     overflow: hidden;
@@ -60,17 +60,17 @@
         background-image: url('../../images/MarkBox.png');
         background-repeat: no-repeat;
         background-size: contain;
-        width: 324px;
+        width: 333px;
         height: 320px;
-        padding-top: 60px;
-        padding-left: 0;
+        padding-top: 62px;
+        padding-left: 0px;
     }
 
     .markBlur {
         -webkit-backdrop-filter: blur(20px);
         backdrop-filter: blur(20px);
-        width: 226px;
-        height: 147px;
+        width: 232px;
+        height: 157px;
         margin-left: 82px;
         border-radius: 10px;
         overflow: hidden;
